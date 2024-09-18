@@ -43,7 +43,6 @@ const Loginpage = (props) => {
             <div>
                 <i className="fa-solid fa-lock fa-xl"></i>
                 <input type="password" id='password' placeholder='Your password' name='password' value={formData.password} onChange={handleOnChange}/>
-                <p></p>
             </div>
             <div className='btn-remember'>
                 <div>
@@ -53,7 +52,7 @@ const Loginpage = (props) => {
                 <button type='submit'>Login</button>
             </div>
         </form>
-        <Link to="/Create-Account-Page">Create account</Link>
+        <Link to="/Sign-Up-Page">Don't have account</Link>
     </div>
   )
 }
